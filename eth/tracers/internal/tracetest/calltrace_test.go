@@ -25,17 +25,17 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/otherview/go-ethereum/common"
+	"github.com/otherview/go-ethereum/common/hexutil"
+	"github.com/otherview/go-ethereum/core"
+	"github.com/otherview/go-ethereum/core/rawdb"
+	"github.com/otherview/go-ethereum/core/types"
+	"github.com/otherview/go-ethereum/core/vm"
+	"github.com/otherview/go-ethereum/crypto"
+	"github.com/otherview/go-ethereum/eth/tracers"
+	"github.com/otherview/go-ethereum/params"
+	"github.com/otherview/go-ethereum/rlp"
+	"github.com/otherview/go-ethereum/tests"
 )
 
 // callLog is the result of LOG opCode

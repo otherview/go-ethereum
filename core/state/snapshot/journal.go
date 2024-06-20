@@ -25,12 +25,12 @@ import (
 	"time"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/triedb"
+	"github.com/otherview/go-ethereum/common"
+	"github.com/otherview/go-ethereum/core/rawdb"
+	"github.com/otherview/go-ethereum/ethdb"
+	"github.com/otherview/go-ethereum/log"
+	"github.com/otherview/go-ethereum/rlp"
+	"github.com/otherview/go-ethereum/triedb"
 )
 
 const journalVersion uint64 = 0

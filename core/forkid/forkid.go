@@ -27,9 +27,9 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/otherview/go-ethereum/core/types"
+	"github.com/otherview/go-ethereum/log"
+	"github.com/otherview/go-ethereum/params"
 )
 
 var (

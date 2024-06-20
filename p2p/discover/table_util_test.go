@@ -29,9 +29,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
+	"github.com/otherview/go-ethereum/crypto"
+	"github.com/otherview/go-ethereum/p2p/enode"
+	"github.com/otherview/go-ethereum/p2p/enr"
 )
 
 var nullNode *enode.Node

@@ -19,11 +19,11 @@ package vm
 import (
 	"math"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/otherview/go-ethereum/common"
+	"github.com/otherview/go-ethereum/core/tracing"
+	"github.com/otherview/go-ethereum/core/types"
+	"github.com/otherview/go-ethereum/crypto"
+	"github.com/otherview/go-ethereum/params"
 	"github.com/holiman/uint256"
 )
 

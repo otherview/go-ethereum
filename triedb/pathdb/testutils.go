@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"slices"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/trie/trienode"
-	"github.com/ethereum/go-ethereum/trie/triestate"
+	"github.com/otherview/go-ethereum/common"
+	"github.com/otherview/go-ethereum/core/types"
+	"github.com/otherview/go-ethereum/crypto"
+	"github.com/otherview/go-ethereum/trie/trienode"
+	"github.com/otherview/go-ethereum/trie/triestate"
 )
 
 // testHasher is a test utility for computing root hash of a batch of state

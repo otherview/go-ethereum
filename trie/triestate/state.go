@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie/trienode"
+	"github.com/otherview/go-ethereum/common"
+	"github.com/otherview/go-ethereum/core/types"
+	"github.com/otherview/go-ethereum/crypto"
+	"github.com/otherview/go-ethereum/rlp"
+	"github.com/otherview/go-ethereum/trie/trienode"
 )
 
 // Trie is an Ethereum state trie, can be implemented by Ethereum Merkle Patricia

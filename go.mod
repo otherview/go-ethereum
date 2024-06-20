@@ -1,4 +1,4 @@
-module github.com/ethereum/go-ethereum
+module github.com/otherview/go-ethereum
 
 go 1.21
 
@@ -21,8 +21,8 @@ require (
 	github.com/deckarep/golang-set/v2 v2.6.0
 	github.com/donovanhide/eventsource v0.0.0-20210830082556-c59027999da0
 	github.com/dop251/goja v0.0.0-20230605162241-28ee0ee714f3
-	github.com/ethereum/c-kzg-4844 v1.0.0
-	github.com/ethereum/go-verkle v0.1.1-0.20240306133620-7d920df305f0
+	github.com/otherview/c-kzg-4844 v1.0.0
+	github.com/otherview/go-verkle v0.1.1-0.20240306133620-7d920df305f0
 	github.com/fatih/color v1.16.0
 	github.com/ferranbt/fastssz v0.1.2
 	github.com/fjl/gencodec v0.0.0-20230517082657-f9840df7b83e

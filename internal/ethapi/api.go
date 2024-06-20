@@ -29,28 +29,28 @@ import (
 	"github.com/holiman/uint256"
 	"github.com/tyler-smith/go-bip39"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/accounts/scwallet"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip1559"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/gasestimator"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/otherview/go-ethereum/accounts"
+	"github.com/otherview/go-ethereum/accounts/keystore"
+	"github.com/otherview/go-ethereum/accounts/scwallet"
+	"github.com/otherview/go-ethereum/common"
+	"github.com/otherview/go-ethereum/common/hexutil"
+	"github.com/otherview/go-ethereum/common/math"
+	"github.com/otherview/go-ethereum/consensus"
+	"github.com/otherview/go-ethereum/consensus/misc/eip1559"
+	"github.com/otherview/go-ethereum/core"
+	"github.com/otherview/go-ethereum/core/state"
+	"github.com/otherview/go-ethereum/core/tracing"
+	"github.com/otherview/go-ethereum/core/types"
+	"github.com/otherview/go-ethereum/core/vm"
+	"github.com/otherview/go-ethereum/crypto"
+	"github.com/otherview/go-ethereum/eth/gasestimator"
+	"github.com/otherview/go-ethereum/eth/tracers/logger"
+	"github.com/otherview/go-ethereum/log"
+	"github.com/otherview/go-ethereum/p2p"
+	"github.com/otherview/go-ethereum/params"
+	"github.com/otherview/go-ethereum/rlp"
+	"github.com/otherview/go-ethereum/rpc"
+	"github.com/otherview/go-ethereum/trie"
 )
 
 // estimateGasErrorRatio is the amount of overestimation eth_estimateGas is
@@ -1864,7 +1864,7 @@ func (s *TransactionAPI) SendRawTransaction(ctx context.Context, input hexutil.B
 //
 // The account associated with addr must be unlocked.
 //
-// https://github.com/ethereum/wiki/wiki/JSON-RPC#eth_sign
+// https://github.com/otherview/wiki/wiki/JSON-RPC#eth_sign
 func (s *TransactionAPI) Sign(addr common.Address, data hexutil.Bytes) (hexutil.Bytes, error) {
 	// Look up the wallet containing the requested signer
 	account := accounts.Account{Address: addr}

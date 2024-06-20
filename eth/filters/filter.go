@@ -22,10 +22,10 @@ import (
 	"math/big"
 	"slices"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/bloombits"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/otherview/go-ethereum/common"
+	"github.com/otherview/go-ethereum/core/bloombits"
+	"github.com/otherview/go-ethereum/core/types"
+	"github.com/otherview/go-ethereum/rpc"
 )
 
 // Filter can be used to retrieve and filter logs.
